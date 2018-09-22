@@ -1,0 +1,32 @@
+\newpage
+\begin{center}
+\normalsize{\textbf{LIST OF ABBREVIATIONS}}
+\vspace{2cm}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% If abbreviations and acronyms (e.g. MARDI, UPM) are used in the   %
+% thesis, they should be explained in a List of Abbreviations, even %
+% though the full names are given when the terms are first          %
+% mentioned in the text. This list should be the last item in the   %
+% preliminary section. It serves as a ready reference to readers    %
+% not familiar with the abbreviations used in the thesis.           %
+% Universally recognised scientific symbols (such as cm, mm, kg)    %
+% need not be listed.                                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{tabular}{ll}
+VIM         &\hspace{2cm} Variational Iteration Method            \\
+MVIM        &\hspace{2cm} Multistage Variational Iteration Method \\
+ODEs        &\hspace{2cm} Ordinary Differential Equations         \\
+PDEs        &\hspace{2cm} Partial Differential Equations          \\
+$\lambda$   &\hspace{2cm} Lagrange Multiplier                     \\
+ADM         &\hspace{2cm} Adomian Decomposition Method            \\
+SADM        &\hspace{2cm} Standard Adomian Decomposition Method   \\
+MADM        &\hspace{2cm} Modified Adomian Decomposition Method   \\
+RK4         &\hspace{2cm} Fourth-order Runge-Kutta Method         \\
+HAM         &\hspace{2cm} Homotopy Analysis Method                \\
+\end{tabular}
+\end{center}
+\clearpage

@@ -1,0 +1,110 @@
+% ---------------------------------------------------------------------------------------%
+%    Universiti Putra Malaysia Postgraduate Students Thesis Template (English Version)   %
+%                                             by                                         %
+%                        Lai-Soon LEE, Ph.D. and Rand ALFARIS, Ph.D.                     %
+%                        lee@math.upm.edu.my , randalfaris@gmail.com                     %
+%                        Institute For Mathematical Research (INSPEM)                    %
+%                                Universiti Putra Malaysia                               %
+%                     43400 UPM Serdang, Selangor Darul Ehsan, MALAYSIA.                 %
+% ---------------------------------------------------------------------------------------%
+%   Acknowledgements:                                                                    %
+%             University of Chicago LaTex Thesis Template                                %
+%             Dr. Mohd Noor Saad,  Department of Mathematics, Faculty of Science, UPM    %
+%             Dr. Mohd Bakri Adam, Department of Mathematics, Faculty of Science, UPM    %
+%             Dr. Belal Batiha,    Department of Mathematics, Faculty of Science, UKM    %
+% ---------------------------------------------------------------------------------------%
+% ------------------------ UPM Thesis Style - English Version -------------------------- %
+% ---------------------------------------------------------------------------------------%
+\documentclass[doublelespace,tocchapterhead]{UPMthesisEnglish}
+\usepackage{paralist}
+\usepackage{natbib}
+\usepackage[figuresright]{rotating}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{slashbox}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{color}
+\citestyle{apj}
+%----------------------------------------------------------------------------------------%
+\begin{document}
+\pagenumbering{roman}
+%----------------------------------------------------------------------------------------%
+\include{Title}
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{DEDICATIONS}}
+\include{Dedication}
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{ABSTRACT}}
+\include{Abstract}
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{ABSTRAK}}
+\include{Abstrak}
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{ACKNOWLEDGMENTS}}
+\include{Acknow}
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{APPROVAL}}
+\include{Approval}
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{DECLARATION}}
+\include{Declaration}
+%----------------------------------------------------------------------------------------%
+%--- The following command is to remove the dots from the list of the tables, figures ---%
+%--- and the table of contents                                                        ---%
+\makeatletter \renewcommand{\@dotsep}{10000} \makeatother
+%----------------------------------------------------------------------------------------%
+\tableofcontents
+\listoftables
+\listoffigures
+\newpage
+\addcontentsline{toc}{chapter}{\textbf{LIST OF ABBREVIATIONS}}
+\include{abbrev}
+%----------------------------------------------------------------------------------------%
+\mainmatter
+\doublespace
+%----------------------------------------------------------------------------------------%
+% The Command:                                                                           %
+% \addtocontents{toc}{\addvspace{.5cm}}                                                  %
+% must be added before each \include {chapter}                                           %
+%----------------------------------------------------------------------------------------%
+\addtocontents{toc}{\addvspace{.5cm}}
+\include{Chapter1}  % Chpater 1: Title of the chapter                                    %
+\addtocontents{toc}{\addvspace{.5cm}}
+\include{Chapter2}  % Chapter 2: Title of the chapter                                    %
+\addtocontents{toc}{\addvspace{.5cm}}
+\include{Chapter3}  % Chapter 3: Title of the chapter                                    %
+\addtocontents{toc}{\addvspace{.5cm}}
+\include{Chapter4}  % Chapter 4: Title of the chapter                                    %
+%----------------------------Additional chapters may be added ---------------------------%
+%                                                                                        %
+%----------------------------------------------------------------------------------------%
+% Bibliography on Chicago Thesis Style with modifications by Rand Alfaris.               %
+% Don't make any changes on the following, except for the name of the bibliography file. %
+% For example, we choose here a file named "bibli".                                      %
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{REFERENCES/Bibliography}}
+\begin{singlespace}
+\bibliography{bibli}
+\bibliographystyle{apj}
+\end{singlespace}
+%----------------------------------------------------------------------------------------%
+\newpage
+\addcontentsline{toc}{chapter}{\textbf{APPENDICES}}
+\appendix
+\include{AppendixA} % Appendix A: Title of the appendix                                  %
+\include{AppendixB} % Appendix B: Title of the appendix                                  %
+%---------------------------Additional Appendices may be added---------------------------%
+%                                                                                        %
+%----------------------------------------------------------------------------------------%
+
+\addcontentsline{toc}{chapter}{\textbf{BIODATA OF STUDENT}}
+\include{biodata}   % Biodata of student                                                 %
+\addcontentsline{toc}{chapter}{\textbf{LIST OF PUBLICATIONS}}
+\include{listofpublications} % List of publications                                      %
+\end{document}
+%----------------------------------------------------------------------------------------%

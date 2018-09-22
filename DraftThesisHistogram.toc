@@ -1,0 +1,61 @@
+\vskip 0.5cm\relax 
+\hspace {12.5cm}\textbf {Page}
+\vskip 0.2cm\relax 
+\setlength {\parskip }{0pt}
+\select@language {english}
+\contentsline {chapter}{\textbf {ABSTRACT}}{i}
+\contentsline {chapter}{\it \textbf {ABSTRAK}}{iii}
+\contentsline {chapter}{\textbf {ACKNOWLEDGMENTS}}{v}
+\contentsline {chapter}{\textbf {APPROVAL}}{vi}
+\contentsline {chapter}{\bf \uppercase {LIST OF TABLES}}{xiv}
+\contentsline {chapter}{\bf \uppercase {LIST OF FIGURES}}{xvi}
+\contentsline {chapter}{\textbf {LIST OF ABBREVIATIONS}}{xvi}
+\contentsline {part}{\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \MakeUppercase {Chapter}}{}
+\contentsline {chapter}{\numberline {1}\textbf {INTRODUCTION}}{1}
+\contentsline {section}{\numberline {1.1}Background}{1}
+\contentsline {section}{\numberline {1.2}Histogram}{1}
+\contentsline {section}{\numberline {1.3}Histogram Bins}{2}
+\contentsline {section}{\numberline {1.4}Numerical Data }{2}
+\contentsline {section}{\numberline {1.5}Raw Data and Grouped Data}{2}
+\contentsline {section}{\numberline {1.6}Frequency}{2}
+\contentsline {section}{\numberline {1.7}Frequency Table}{3}
+\contentsline {section}{\numberline {1.8}Frequency Polygon}{3}
+\contentsline {section}{\numberline {1.9}Bar Chart}{3}
+\contentsline {section}{\numberline {1.10}Use of Histogram}{3}
+\contentsline {section}{\numberline {1.11}Problem Statement}{3}
+\contentsline {section}{\numberline {1.12}Research Aims and Objectives}{3}
+\contentsline {section}{\numberline {1.13}Limitation of Study}{4}
+\contentsline {section}{\numberline {1.14}Structure of Thesis}{4}
+\contentsline {chapter}{\numberline {2}\textbf {LITERATURE REVIEW}}{6}
+\contentsline {section}{\numberline {2.1}History of Histogram}{6}
+\contentsline {chapter}{\numberline {3}\textbf {METHODOLOGY}}{8}
+\contentsline {section}{\numberline {3.1}Classical Histogram}{8}
+\contentsline {subsection}{\numberline {3.1.1}Flow of Constructing Histogram}{8}
+\contentsline {subsection}{\numberline {3.1.2}Selection of Bins}{9}
+\contentsline {subsection}{\numberline {3.1.3}Equal Width}{9}
+\contentsline {subsection}{\numberline {3.1.4}Unequal Width}{9}
+\contentsline {subsection}{\numberline {3.1.5}Symmetrical Data}{9}
+\contentsline {subsection}{\numberline {3.1.6}Heavy Tail Data}{9}
+\contentsline {subsection}{\numberline {3.1.7}Big Data and Small Data}{9}
+\contentsline {subsection}{\numberline {3.1.8}Missing Data}{9}
+\contentsline {section}{\numberline {3.2}Selecting the Best Histogram Representing Data}{10}
+\contentsline {subsection}{\numberline {3.2.1}Goodness of Fit for Histogram}{10}
+\contentsline {subsection}{\numberline {3.2.2}Statistics from frequency table}{10}
+\contentsline {section}{\numberline {3.3}Modification of Constructing Histogram}{10}
+\contentsline {subsection}{\numberline {3.3.1}Modification via Bin Numbers}{10}
+\contentsline {subsection}{\numberline {3.3.2}Modification Via Bin Width}{10}
+\contentsline {subsection}{\numberline {3.3.3}Modification for Heavy Tail Data}{10}
+\contentsline {subsection}{\numberline {3.3.4}Starting point of constructing the histogram}{10}
+\contentsline {section}{\numberline {3.4}Handling Big Data with Histogram}{10}
+\contentsline {section}{\numberline {3.5}Histogram by Area}{10}
+\contentsline {section}{\numberline {3.6}Modification of Histogram}{10}
+\contentsline {subsection}{\numberline {3.6.1}Mode Formula}{10}
+\contentsline {subsection}{\numberline {3.6.2}Mean Formula}{10}
+\contentsline {subsection}{\numberline {3.6.3}Kurtosis}{10}
+\contentsline {section}{\numberline {3.7}Histogram by Area\ Fall Down(Order Frequency Histogram)}{10}
+\contentsline {section}{\numberline {3.8}Percentile Histogram}{10}
+\vskip .5cm\relax 
+\contentsline {chapter}{\textbf {BIBLIOGRAPHY}}{12}
+\contentsline {chapter}{\textbf {BIODATA OF STUDENT}}{15}
+\contentsline {chapter}{\textbf {LIST OF PUBLICATIONS}}{16}
+\contentsline {chapter}{\textbf {INDEX}}{}

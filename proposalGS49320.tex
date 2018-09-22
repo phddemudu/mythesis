@@ -1,0 +1,377 @@
+\documentclass{beamer}
+
+\usepackage{apacite}
+
+
+
+\usepackage{pgfpages}
+%\setbeameroption{show notes}
+%\setbeameroption{show notes on second screen=right}
+\mode<presentation> {
+  \usetheme{Warsaw}
+  % ou autre ...
+
+  \setbeamercovered{transparent}
+  % ou autre chose (il est également possible de supprimer cette ligne)
+}
+
+
+\usepackage[english]{babel}
+
+
+
+\setbeamertemplate{footline}[frame number]
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+
+
+
+\title{REVISITING HISTOGRAM}
+\author
+{Demudu Naganaidu (GS49320) \\
+Supervisory committee: \\
+Assoc Prof. Dr. Mohd Bakri Adam \\
+Assoc Prof. Dr. Jayanthi Arrasan\\
+Dr Iskandar Bin Ishak \\}
+
+\institute{Institute of Mathematical Research \\
+University Putra Malaysia}
+
+\date{15th May 2018}
+\begin{document}
+	
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}{Outline of Presentation}
+\tableofcontents
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+\begin{itemize}
+\item Exploratory Data Analysis (EDA) is an approach of analyzing data visually without a prior assumptions on parametric model of the data, error terms, outliers, modality and relationship with other variables.
+\item EDA helps the researchers to model data based on the what is revealed through exploring with various graphical methods. 
+\item Histogram is one of the important tools used in EDA to summaries large amount data and to visualise the distribution of data.
+\item It is a nonparametric density estimator.
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Introduction(cont..)}
+\begin{itemize}
+	\item Once a histogram is constructed, general attributes of the data such as symmetry, modality, central location and spread of the data can be revealed.
+	\item No matter how a histogram created the bins size must be decided. Bins can be either all same size (i.e same width) or different size.
+	\item Too many bin makes the histogram uneven and unable to find the underlying trend. Too few bin gives little information about the data.
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}{Introduction(cont..)}
+	\begin{itemize}
+		\item  There is no "the best" number of bins, as different bin sizes can reveal different features of the data.
+		\item One usually try different bin numbers, before choosing one that illustrate the salient features of the data. \\
+		\item The number of bins k  for hisogram with equal width can be determined from a suggested bin width h  or vice versa.
+		$k = \Bigg[ \frac{Max(data)  - Min(data)}{h} \Bigg]$
+
+	\end{itemize}
+\end{frame}
+
+\section{Literature Review}
+\begin{frame}[allowframebreaks]{Literature Review}
+
+\begin{itemize}
+	
+	\item \cite{sturges1926choice} is one of the most cited scholar when it comes to histogram bin selection. He claims proper distribution is distributed into bins by series of binomial coefficients. He presented the number of bins, k for a dataset with N observations was written as:
+	
+	\begin{equation}
+	k= 1 + 3.322\; log(N)
+	\end{equation} 
+	
+	The bin width, h can be computed as: 
+	
+	\begin{equation}
+	\large{h= \frac{R}{k} } 
+	\end{equation}
+	
+	where R is range of data.
+	
+	\item Sturges' suggest that suitable bin width should be 1,2,5,10,20 or etc so that the theoretical bin width, h computed from (2) can approximated to next smaller convenient bin width.
+	
+	\item Sturges' rule only suitable for strictly normal data, argued \cite{scott2009sturges} . He points out that data from other type of distribution require more bins.
+	
+	\item Scott previously in 1979 introduced a new formula for finding the bin width \cite{scott1979optimal} by including the standard deviation to address problems of bias and variance in estimation. 
+	
+	\item He propose new method to construct histogram using mean squared error criteria that is more rationale according to him.
+	
+	Mean squared error (MSE) of histogram estimate, $\hat{f}(x)$, of the true density value, $f(x)$, defined by
+	
+	\begin{equation}
+	MSE(x)=\large E \left\{\hat{f}(x) - f(x)  \right\}^2
+	\end{equation}
+	
+	Scott derived a general term for the width of the histogram as follows:
+	
+	\begin{equation}
+	{h^*}_n =         \Bigg\{     \frac{6}{\int_{{-}\infty}^{\infty} {f'}(x)^{2} dx}  \Bigg\}^{1/3}n^{-1/3}
+	\end{equation}
+	
+	and for normal data, ${h^*}_n = 2 $ x $ 3^{\frac{1}{3}}\pi^{\frac{1}{6}}\sigma n^{\frac{-1}{3}}$
+	
+	when $\sigma$ is unknown the estimate from sample, sample standard deviation is used giving the bin width,  $h =  3.49s n^{ - 1/3}$
+	
+	\item \cite{freedman1981histogram} came out with a robust method using the Inter Quartile Range, IQR, where the bin width  ${h^*} =  2(IQR) n^{\frac{-1}{3}}$
+	
+	\item \cite{scott1985} proposed the average shifted histogram as variation in density estimation. An algorithm by choosing $m$ histograms but with different bin locations and averaging them to get average shifted histogram.
+	
+	\item \cite{wand1997data} regards that the bin width is the most important parameter when it comes to histograms construction. Whether a histogram is 'over smooth' or 'under smooth' is controlled by this parameter. He extended the Scott's rule to provide a simple and with asymptotic performance. However the method proposed is not straight  forward.
+	
+	\item \cite{bura2009nonparametric} introduced the cross validation (CV) method and derived:
+	
+	\begin{equation}
+	CV\left[h\right] = \frac{2}{h(n-1)} - \frac{n+1}{h(n-1)} \sum_{k=1}^{m}\frac{n_{k}^{2}}{n^2}
+	\end{equation}
+	
+	where m is number of bins, $h=(x_{max} - x_{min})/m$, and $n_k$ is the $k$th bin count. The value of $h_i$ that corresponds to the minimum of CV$\left[h\right]$ defines the $h_{opt}$, optimum bin width.
+	
+	\item Variation from Sturges formula introduced by Doane in 1976  \cite{wand1997data}
+	
+	{\center $h = 1 + \frac{log(n) + log(1 + c_1)}{log(2)} $ where \\}
+	
+	
+	{\center $c_1 = \frac{m_3}{m_2^{3/2}} \left[ \frac{(n+1)(n+3)}{6(n-2)}\right]^{1/2}$ and \\}
+	
+	{\center $ m_j = \sum_{i=1}^{n}(X_i - \hat X)^{j/n}  $\\}
+	
+\end{itemize}
+\end{frame}
+
+\section{Problem Statement}
+\begin{frame}{Problem Statement}
+\begin{itemize}
+	
+	\item In constructing histogram, important parameters are: (i) number of bins or intervals, (ii) bin width and (iii) lower limit of first bin \cite{waterman1978estimation}.
+	
+	\item In statistical theory however only few guidelines are available for selecting the number of bins or bin width for the histogram \cite{he1997selecting,birge2006many}
+	
+	\item Despite some suggested methods to determine the number of bins, there is no single method is agreed upon. 
+	
+	\item Statistical softwares available uses different methods or modified the existing methods so that the bin width have nice break points. 
+	
+	
+\end{itemize}
+
+\end{frame}
+
+\section{Problem Statement}
+
+\begin{frame}{Problem Statement}
+\begin{itemize}
+	\item S-Plus uses Sturges Rule but with modification \cite{wand1997data}. Similarly R Programming.
+	
+	\item STATA gives a range for the user to select the bin width between Sturges, Scott, Freedman-Diaconis and others.
+	
+	\item Inexperienced researches may find it challenging to decide which is the best method.
+	
+	\item The central tendency measures and variance calculated from raw data can used in deciding the number bins.
+		
+	\item Detecting the outliers from histogram not very helpful due the method of constructing. The modification of construction histogram can reveal the outliers more effectively.
+	
+\end{itemize}
+\end{frame}
+
+
+
+
+\section{Research Aims and Objectives}
+\begin{frame}{Research Aims and Objectives}
+This study aims to achieve following objectives:
+
+\begin{itemize}
+	\item Propose a method using raw data central tendency measures  and variation to decide the number of bins.
+	\item Evaluate performance of new method with existing methods
+	\item Propose a new method for construction of histogram to detect outliers
+	\item Evaluate performance of new method against method using Inter Quartile Range (IQR) to detect outliers
+	\item Propose a fixed frequency histogram for the purpose of segmentation or classification.
+	
+\end{itemize}
+\end{frame}
+
+
+\section{Methodology}
+\begin{frame}{Methodology}
+\framesubtitle{Frequency Table}
+\begin{itemize}
+
+\item Consider a continuous data set $x_{1}, x_{2},x_{3},...,x_{n}$ with unknown density $f$ where all values are in an interval [a,b). Group the data into k bins with end points
+
+ {\center $ a = a_0 < a_1, < a_2 < ... < a_k = b$ \\} \;
+
+\item Let the frequency of data in each bin $B_j$ be denoted by $f_j$ and with fixed bin width $h = a_j - a_{j-1}$.
+
+\item  Each bin range can be written as :
+
+	{\center $B_j = [a_0 + (j-1)h , a_0 + jh) , j= 1,2,...,k$ \\} 
+	
+	{\center $f_j = \sum\limits_{i=1}^{n} I ( x_i \in B_j)$, and $\sum f_j = n$\\}
+	
+\item Denote $m_j$ as the center of the bin $B_j$
+
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Methodology}
+\framesubtitle{Frequency Table}
+\begin{itemize}
+		\item The data with n observations then can be summarised in frequency table.
+\end{itemize}
+\vspace{-8mm}
+\begin{table}[ht]
+	\caption{Frequency Table} % title of Table
+	\centering % used for centering table
+	\begin{tabular}{c c c c} % centered columns (4 columns)
+		\hline\hline %inserts double horizontal lines
+		 & Mark  & Frequency & Relative Frequency  \\ [0.5ex] % inserts table
+		$B_j$ & $m_j$ & $f_j$ & $\frac{f_j}{n}$\\ [0.5ex] % inserts table
+		%heading
+		\hline % inserts single horizontal line 
+		$B_1$ & $m_1$ & $f_1$  & $\frac{f_1}{n}$\\
+		$B_2$ & $m_2$ & $f_2$  & $\frac{f_2}{n}$\\
+		. & .  & .   & .   \\
+		. & .  & .   & .   \\
+		$B_k$ & $m_k$ & $f_k$  & $\frac{f_k}{n}$\\
+		\hline %inserts single line
+	          & & $ \sum = n $& $\sum = 1$\\
+	\end{tabular}
+	\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+\end{frame}
+
+
+\begin{frame}{Methodology}
+\framesubtitle{Histogram}
+\begin{itemize}
+	
+\item A graphical display of frequency table is called as Histogram. There are two types of histogram: (i) Frequency Histogram and (ii) Relative Frequency Histogram
+
+\item To visualise Frequency Hsitogram  plot the frequency as the height of a column, with the width of the column representing the width of bin. 
+
+\item Relative Frequency Histogram are obtained by representing the height of the bin by relative frequency.
+
+\item The histogram in density form is defined as 
+
+{\center $\hat f(x) = \frac{f_j}{nh} $ where $\hat f(x) \geq 0 \; and \int \hat f(x) dx =1 $\\}
+	
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Methodology}
+\framesubtitle{Measures of Central Tendency}
+\begin{itemize}
+\item Mean
+
+{\center $\bar x = \frac{\sum f_j m_j}{n}$\\}
+
+\item Median
+
+{\center $Median = L_1 + \left[\frac{\frac{n}{2}- cf}{f}  * h \right]$, where \\}
+	\vspace{5mm}
+$L_1 = $ lower limit of median bin \\
+$cf = $the cumulative frequency of the bin preceding the median bin\\
+$h = $ bin width \\
+median bin is the bin where the item $\frac{n}{2}$ located.\\
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Methodology}
+\framesubtitle{Measures of Central Tendency}
+\begin{itemize}
+	
+	\item Mode
+	
+	{\center $Mode = L_1 + \left[\frac{fm - fb}{(fm-fb)+(fm-fa)} * h \right]$, where \\}
+	\vspace{5mm}
+	$L_1 = $ lower limit of modal bin \\
+	$fm = $ frequency of modal bin \\
+	$fb = $ frequency of bin before modal bin \\
+	$fa = $ frequency of bin after modal bin \\
+	$h = $ bin width \\
+	modal bin is the bin with highest frequency \\
+	
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Methodology}
+\framesubtitle{Variance}
+\begin{itemize}
+	
+	\item Variance
+	
+	{\center $ S^2 = \frac{\sum\limits_{j=1}^{k} f_j \left (m_j - \hat{x}\right )^2}{n-1}$ , where \\}
+	
+	\vspace{8mm}
+	$m_j = $ as the center of bin $B_j$ \\
+	$f_j = $ frequency of bin $B_j$ \\
+	$ j = 1,2,..k$\\
+	
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Methodology}
+\framesubtitle{New Method for Histogram Binning}
+\begin{itemize}
+	\item Bins will be useful to calculate averages, variance, skewness and other moments of frequency distributions formed with the k number of bins \cite{sturges1926choice} .
+	
+	\item Number of bins between 5 to 20 is adequate for real set of data \cite{scott1979optimal}  
+	
+	\item As we are using the histogram as non parametric density estimator,  the central tendency measures and variance obtained from histogram must be close to the one obtained from raw data.
+		
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Methodology}
+\framesubtitle{New Method for Histogram Binning}
+\begin{itemize}
+
+	\item To do this an iteration method is proposed starting with 5 bins. Based on the 5 bins, data is grouped and respective frequencies to be obtained. Central tendency and variance from grouped data then compared with the same measures from raw data. 
+	
+	\item Next is to increase the bins by 1 and repeat same process above. Once we have measure from 5 bins to 20 bins, comparison can be made to determine the which number of bins provide the closest estimate to the raw data estimate. 
+	
+	
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Methodology}
+\framesubtitle{Detecting Outliers from Histogram}
+\begin{itemize}
+	
+	\item The current method detecting outliers are from histogram are not effective.
+	
+	\item This is due to the current method of which requires to determine the lower limit of first bin or the upper limit of last bin.
+	
+	\item New method proposed to use the median at starting point to draw histogram on both left and right. The columns of histograms are drawn until the minimum value and maximum value are included in the histogram.
+	
+	\item Data in columns after gaps by two columns can be considered as outliers.
+	
+\end{itemize}
+\end{frame}
+
+\section{References}
+	\begin{frame}[allowframebreaks]{References}
+		\bibliographystyle{apacite}
+		\bibliography{bibbliografi}
+	\end{frame}
+
+\end{document}

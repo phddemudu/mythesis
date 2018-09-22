@@ -1,0 +1,130 @@
+\chapter{\textbf{TOPIC RESEARCH TWO}}\label{Newlabel}
+
+
+\section{Introduction}
+
+\lipsum 
+% Example for the indices
+Some more stuff about eigenvectors\index{eigenvector} and 
+eigenvalues\index{eigenvalue}. Something about 
+eigen-decomposition\index{eigen-decomposition}. 
+
+
+
+\subsection{ Subsection Here to introduce you how to include figure(s) in LaTeX file}
+
+Please make sure you save and download you figure(s) in the same directory with your .tex file. The best type of figure is .pdf but you also can use .eps or .jpeg or .jpg. See the examples. Ilustrate in this section.
+
+\begin{figure}[h!]
+ \centering
+  \includegraphics[width=0.5\textwidth]{upm.jpeg}
+ \caption{A picture of theUPM logo using jpeg type of file
+       looking the other way!}
+ \end{figure}
+
+
+\begin{verbatim}
+\begin{figure}[h!]
+ \centering
+  \includegraphics[width=0.5\textwidth]{upm.jpeg}
+ \caption{A picture of theUPM logo using jpeg type of file
+       looking the other way!}
+ \end{figure}
+
+\end{verbatim}
+
+\begin{figure}[h!]
+ \centering
+  \includegraphics[width=0.5\textwidth]{uni.pdf}
+ \caption{A picture of theUPM logo using pdf type of file
+       looking the other way!}
+ \end{figure}
+
+
+
+\begin{verbatim}
+\begin{figure}[h!]
+ \centering
+  \includegraphics[width=0.5\textwidth]{uni.pdf}
+ \caption{A picture of theUPM logo using pdf type of file
+       looking the other way!}
+ \end{figure}
+\end{verbatim}
+
+We also can rotating the figures by using sidewaysfigure command.
+
+\lipsum[1-2]
+
+\begin{figure}[h]
+  \begin{sideways}
+    \includegraphics[scale=0.2]{uni.pdf}
+  \end{sideways}
+  \centering
+  \caption[Caption]{Logo}
+  \label{pic:picture}
+\end{figure}
+
+\begin{verbatim}
+
+\begin{figure}[h]
+  \begin{sideways}
+    \includegraphics[scale=0.2]{uni.pdf}
+  \end{sideways}
+  \centering
+  \caption[Caption]{Logo}
+  \label{pic:picture}
+\end{figure}
+\end{verbatim}
+
+
+\newpage 
+
+
+\begin{figure}[htb]
+  \centering
+  \begin{turn}{-90}
+  \begin{minipage}{3in}
+  \centering
+    \includegraphics[scale=0.2]{uni.pdf}
+  \caption{Logo}
+  \label{fig:logo2}
+  \end{minipage}
+  \end{turn}
+\end{figure}
+
+
+
+
+\begin{verbatim}
+\begin{figure}[htb]
+  \centering
+  \begin{turn}{-90}
+  \begin{minipage}{3in}
+  \centering
+    \includegraphics[scale=0.2]{uni.pdf}
+  \caption{Logo}
+  \label{fig:logo2}
+  \end{minipage}
+  \end{turn}
+\end{figure}
+\end{verbatim}
+
+
+There are many ways how to manipulat and rotating the figures.
+\section{New Section}
+
+\lipsum
+
+\subsection{Another Subsection Here}
+
+\lipsum
+
+\subsubsection{ Another Sub Subsection Here}
+
+\lipsum
+
+\section{ New Section}
+
+\lipsum
+
+\addblankpage % Add this as the page ended with even number

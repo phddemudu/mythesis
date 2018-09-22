@@ -1,0 +1,96 @@
+% ----------------- Approval Sheet 1: Examination Committee ----------------%
+\begin{singlespace}
+I certify that a Thesis Examination Committee has met on
+({\bf{insert the date of viva voce}}) to conduct the final
+examination of ({\bf{insert the student's name}}) on his (or her)
+thesis entitled ``{\bf{Title of thesis}}" in accordance with the
+Universities and University Colleges Act 1971 and the Constitution
+of the Universiti Putra Malaysia [P.U.(A) 106] 15 March 1998. The
+Committee recommends that the student be awarded the ({\bf{insert
+the name of relevant degree}}).
+\\
+Members of the Thesis Examination Committee were as follows:
+\vspace{5mm}
+
+{\bf{Name of Chairperson, Ph.D.}}\\
+Title (e.g. Professor/Associate Professor/Ir) -- Omit if not relevant\\
+Name of Faculty\\
+Universiti Putra Malaysia\\
+(Chairperson)\\
+
+{\bf{Name of Examiner 1, Ph.D.}}\\
+Title (e.g. Professor/Associate Professor/Ir) -- Omit if not relevant\\
+Name of Faculty\\
+Universiti Putra Malaysia\\
+(Internal Examiner)\\
+
+{\bf{Name of Examiner 2, Ph.D.}}\\
+Title (e.g. Professor/Associate Professor/Ir) -- Omit if not relevant\\
+Name of Faculty\\
+Universiti Putra Malaysia\\
+(Internal Examiner)\\
+
+{\bf{Name of External Examiner, Ph.D.}}\\
+Title (e.g. Professor/Associate Professor/Ir) -- Omit if not relevant\\
+Name of Department and/or Faculty\\
+Name of Organisation (University/Institute)\\
+Country\\
+(External Examiner)\\
+
+\begin{table}[b!]
+\begin{tabular}{ll}
+\hspace{7cm} &                                    \\
+\cline{2-2} \vspace{-.3cm}                        \\
+             & {\bf{BUJANG KIM HUAT, Ph.D.}}\\
+             & Professor and Deputy Dean          \\
+             & School of Graduate Studies         \\
+             & Universiti Putra Malaysia          \\
+             &                                    \\
+             & Date:                              \\
+\end{tabular}
+\end{table}
+
+
+% ---------------- Approval Sheet 2: Supervisory Committee ---------------- %
+\newpage
+This thesis was submitted to the Senate of Universiti Putra
+Malaysia and has been accepted as fulfilment of the requirement
+for the degree of {\bf{type of degree}}.\\
+
+The members of the Supervisory Committee were as follows:\vspace{5mm}%
+
+{\bf{Name of Chairperson, Ph.D. (Omit `Ph.D.' if not relevant)}}\\
+Title (e.g. Professor/Associate Professor/Ir) -- Omit if not relevant\\
+Name of Faculty\\
+Universiti Putra Malaysia\\
+(Chairperson)\\
+
+{\bf{Name of Member 1, Ph.D. (Omit `Ph.D.' if not relevant)}}\\
+Title (e.g. Professor/Associate Professor/Ir) -- Omit if not relevant\\
+Name of Faculty\\
+Universiti Putra Malaysia\\
+(Member)\\
+
+{\bf{Name of Member 2, Ph.D. (Omit `Ph.D.' if not relevant)}}\\
+Title (e.g. Professor/Associate Professor/Ir) -- Omit if not relevant\\
+Name of the Department and/or Faculty\\
+Name of Organisation (University/Institute)\\
+(Member)\\
+\\
+(Add or delete if there are more or less than three members in the
+supervisory committee, respectively)
+
+\begin{table}[b!]
+\begin{tabular}{ll}
+\hspace{5.5cm} &                            \\
+\cline{2-2}  \vspace{-.3cm}               \\
+             & {\bf HASANAH MOHD GHAZALI, Ph.D.}   \\
+             & Professor and Dean         \\
+             & School of Graduate Studies \\
+             & Universiti Putra Malaysia  \\
+             &                            \\
+             & Date:                      \\
+\end{tabular}
+\end{table}
+\end{singlespace}
+\newpage

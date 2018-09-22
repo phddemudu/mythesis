@@ -1,0 +1,161 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Beniger and Robyn}{1976}]{beniger1976history}
+Beniger, J.~R. and Robyn, D.~L. (1976).
+\newblock The history and future of graphics in statistics.
+\newblock {\em Social Statistics Proceedings}, pages 192--197.
+
+\bibitem[\protect\astroncite{Berger et~al.}{2016}]{berger2016big}
+Berger, M.~A., Mathew, P.~A., and Walter, T. (2016).
+\newblock Big data analytics in the building industry.
+\newblock {\em ASHRAE Journal}, 58(LBNL--1005983).
+
+\bibitem[\protect\astroncite{Chen et~al.}{2007}]{chen2007handbook}
+Chen, C.-h., H{\"a}rdle, W.~K., and Unwin, A. (2007).
+\newblock {\em Handbook of data visualization}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[\protect\astroncite{Copas and Haberman}{1983}]{copas1983non}
+Copas, J. and Haberman, S. (1983).
+\newblock Non-parametric graduation using kernel methods.
+\newblock {\em Journal of the Institute of Actuaries (1886-1994)},
+  110(1):135--156.
+
+\bibitem[\protect\astroncite{Dodge}{2008}]{dodge2008concise}
+Dodge, Y. (2008).
+\newblock {\em The concise encyclopedia of statistics}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[\protect\astroncite{Donoho}{2017}]{donoho201750}
+Donoho, D. (2017).
+\newblock 50 years of data science.
+\newblock {\em Journal of Computational and Graphical Statistics},
+  26(4):745--766.
+
+\bibitem[\protect\astroncite{Francis}{2005}]{francis2005dancing}
+Francis, L.~A. (2005).
+\newblock Dancing with dirty data methods for exploring and cleaning data.
+
+\bibitem[\protect\astroncite{Friendly}{2007}]{friendly2007m}
+Friendly, M. (2007).
+\newblock A.-m. guerry's" moral statistics of france": Challenges for
+  multivariable spatial analysis.
+\newblock {\em Statistical Science}, pages 368--399.
+
+\bibitem[\protect\astroncite{Friendly}{2008}]{friendly2008golden}
+Friendly, M. (2008).
+\newblock The golden age of statistical graphics.
+\newblock {\em Statistical Science}, pages 502--535.
+
+\bibitem[\protect\astroncite{Giudici}{2005}]{giudici2005applied}
+Giudici, P. (2005).
+\newblock {\em Applied data mining: Statistical methods for business and
+  industry}.
+\newblock John Wiley \& Sons.
+
+\bibitem[\protect\astroncite{Hand et~al.}{2001}]{hand2001principles}
+Hand, D.~J., Mannila, H., and Smyth, P. (2001).
+\newblock {\em Principles of data mining (adaptive computation and machine
+  learning)}.
+\newblock MIT press Cambridge, MA.
+
+\bibitem[\protect\astroncite{Ioannidis}{2003}]{ioannidis2003history}
+Ioannidis, Y. (2003).
+\newblock -the history of histograms (abridged).
+\newblock In {\em Proceedings 2003 VLDB Conference}, pages 19--30. Elsevier.
+
+\bibitem[\protect\astroncite{John et~al.}{1983}]{john1983graphical}
+John, C., Cleveland, W., Kleiner, B., and Tukey, P. (1983).
+\newblock Graphical methods for data analysis.
+\newblock {\em Wadsworth, Ohio}, pages 128--129.
+
+\bibitem[\protect\astroncite{Keen}{2010}]{keen2010graphics}
+Keen, K.~J. (2010).
+\newblock {\em Graphics for statistics and data analysis with R}.
+\newblock CRC Press.
+
+\bibitem[\protect\astroncite{Kirschenmann et~al.}{2015}]{kirschenmann2015note}
+Kirschenmann, T., Damien, P., and Walker, S. (2015).
+\newblock A note on the e--a histogram.
+\newblock {\em Statistics \& Probability Letters}, 103:105--109.
+
+\bibitem[\protect\astroncite{Leek}{2015}]{leek2015elements}
+Leek, J. (2015).
+\newblock The elements of data analytic style.
+\newblock {\em J. Leek.—Amazon Digital Services, Inc}.
+
+\bibitem[\protect\astroncite{Li et~al.}{2016}]{li2016essential}
+Li, H., Munk, A., Sieling, H., and Walther, G. (2016).
+\newblock The essential histogram.
+\newblock {\em arXiv preprint arXiv:1612.07216}.
+
+\bibitem[\protect\astroncite{Loquin and Strauss}{2008}]{loquin2008histogram}
+Loquin, K. and Strauss, O. (2008).
+\newblock Histogram density estimators based upon a fuzzy partition.
+\newblock {\em Statistics \& Probability Letters}, 78(13):1863--1868.
+
+\bibitem[\protect\astroncite{Magar et~al.}{2014}]{magar2014application}
+Magar, V.~M., Shinde, V.~B., et~al. (2014).
+\newblock Application of 7 quality control (7 qc) tools for continuous
+  improvement of manufacturing processes.
+\newblock {\em International Journal of Engineering Research and General
+  Science}, 2(4):364--371.
+
+\bibitem[\protect\astroncite{Magnello}{2014}]{magnello2014introducing}
+Magnello, E. (2014).
+\newblock {\em Introducing Statistics: A Graphic Guide}.
+\newblock Icon Books Ltd.
+
+\bibitem[\protect\astroncite{Peng}{2012}]{peng2012exploratory}
+Peng, R. (2012).
+\newblock {\em Exploratory data analysis with R}.
+\newblock Lulu. com.
+
+\bibitem[\protect\astroncite{Ross}{2010}]{ross2010introductory}
+Ross, S.~M. (2010).
+\newblock Introductory statistics.
+
+\bibitem[\protect\astroncite{Rufilanchas}{2017}]{rufilanchas2017origin}
+Rufilanchas, D.~R. (2017).
+\newblock On the origin of karl pearson’s term “histogram”.
+\newblock {\em Estad{\'\i}stica espa{\~n}ola}, 59(192):29--35.
+
+\bibitem[\protect\astroncite{Scott}{1979}]{scott1979optimal}
+Scott, D.~W. (1979).
+\newblock On optimal and data-based histograms.
+\newblock {\em Biometrika}, 66(3):605--610.
+
+\bibitem[\protect\astroncite{Scott and Sain}{2005}]{scott2005multidimensional}
+Scott, D.~W. and Sain, S.~R. (2005).
+\newblock Multidimensional density estimation.
+\newblock {\em Handbook of statistics}, 24:229--261.
+
+\bibitem[\protect\astroncite{Sharma and Kumawat}{2015}]{sharma2015review}
+Sharma, U.~K. and Kumawat, K. (2015).
+\newblock Review of histogram based image contrast enhancement techniques.
+\newblock {\em Int. Journal of Research in Engineering \& Technology (IJRET)},
+  3(2):65--76.
+
+\bibitem[\protect\astroncite{Torrecilla and Romo}{2018}]{torrecilla2018data}
+Torrecilla, J.~L. and Romo, J. (2018).
+\newblock Data learning from big data.
+\newblock {\em Statistics \& Probability Letters}.
+
+\bibitem[\protect\astroncite{Velleman and
+  Hoaglin}{1981}]{velleman1981applications}
+Velleman, P.~F. and Hoaglin, D.~C. (1981).
+\newblock {\em Applications, basics, and computing of exploratory data
+  analysis}.
+\newblock Duxbury Press.
+
+\bibitem[\protect\astroncite{Wand}{1997}]{wand1997data}
+Wand, M. (1997).
+\newblock Data-based choice of histogram bin width.
+\newblock {\em The American Statistician}, 51(1):59--64.
+
+\bibitem[\protect\astroncite{Wendy and Angel}{2002}]{wendy2002computational}
+Wendy, L.~M. and Angel, R.~M. (2002).
+\newblock Computational statistics handbook with matlab.
+\newblock {\em Chapman\& Hall/Crc, NewYork}.
+
+\end{thebibliography}

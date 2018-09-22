@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: proposalGS49320.aux
+The style file: apacite.bst
+Database file #1: bibbliografi.bib
+Repeated entry---line 316 of file bibbliografi.bib
+ : @article{scott1979optimal
+ :                          ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 335 of file bibbliografi.bib
+ :  publisher = {} 
+ :                 Springer
+I'm skipping whatever remains of this entry
+Repeated entry---line 375 of file bibbliografi.bib
+ : @article{wand1997data
+ :                      ,
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+(There were 3 error messages)

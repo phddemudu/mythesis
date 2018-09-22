@@ -1,0 +1,23 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Goldwasser et~al.}{1988}]{Goldwasser1988}
+Goldwasser, S., Micali, S., and Rivest, R.~L. (1988).
+\newblock {A Digital ... Attacks}.
+\newblock {\em SIAM Journal On Computing}, 17(2):281--308.
+
+\bibitem[\protect\astroncite{Hoffstein et~al.}{2008a}]{Hoffstein2008a}
+Hoffstein, J., Pipher, J., and Silverman, J.~H. (2008a).
+\newblock {\em {An Introduction To Mathematical Cryptography One}}.
+\newblock Springer.
+
+\bibitem[\protect\astroncite{Hoffstein et~al.}{2008b}]{Hoffstein2008b}
+Hoffstein, J., Pipher, J., and Silverman, J.~H. (2008b).
+\newblock {\em {An Introduction To Mathematical Cryptography Two}}.
+\newblock Springer.
+
+\bibitem[\protect\astroncite{May}{2003}]{May2003}
+May, A. (2003).
+\newblock {\em {New {RSA} Vulnerabilities Using Lattice Reduction Methods}}.
+\newblock PhD thesis, University Of Paderborn.
+
+\end{thebibliography}

@@ -1,0 +1,263 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Birg{\'e}%
+\ \BBA {} Rozenholc%
+}{%
+Birg{\'e}%
+\ \BBA {} Rozenholc%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+birge2006many}
+\APACinsertmetastar {%
+birge2006many}%
+\begin{APACrefauthors}%
+Birg{\'e}, L.%
+\BCBT {}\ \BBA {} Rozenholc, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How many bins should be put in a regular histogram} {How
+  many bins should be put in a regular histogram}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ESAIM: Probability and Statistics}{10}{}{24--45}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bura%
+, Zhmurov%
+\BCBL {}\ \BBA {} Barsegov%
+}{%
+Bura%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+bura2009nonparametric}
+\APACinsertmetastar {%
+bura2009nonparametric}%
+\begin{APACrefauthors}%
+Bura, E.%
+, Zhmurov, A.%
+\BCBL {}\ \BBA {} Barsegov, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Nonparametric density estimation and optimal bandwidth
+  selection for protein unfolding and unbinding data} {Nonparametric density
+  estimation and optimal bandwidth selection for protein unfolding and
+  unbinding data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of chemical physics}{130}{1}{01B602}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Freedman%
+\ \BBA {} Diaconis%
+}{%
+Freedman%
+\ \BBA {} Diaconis%
+}{%
+{\protect \APACyear {1981}}%
+}]{%
+freedman1981histogram}
+\APACinsertmetastar {%
+freedman1981histogram}%
+\begin{APACrefauthors}%
+Freedman, D.%
+\BCBT {}\ \BBA {} Diaconis, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On the histogram as a density estimator: L 2 theory} {On
+  the histogram as a density estimator: L 2 theory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Probability Theory and Related
+  Areas}{57}{4}{453-476}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+He%
+\ \BBA {} Meeden%
+}{%
+He%
+\ \BBA {} Meeden%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+he1997selecting}
+\APACinsertmetastar {%
+he1997selecting}%
+\begin{APACrefauthors}%
+He, K.%
+\BCBT {}\ \BBA {} Meeden, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Selecting the number of bins in a histogram: A decision
+  theoretic approach} {Selecting the number of bins in a histogram: A decision
+  theoretic approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Statistical Planning and
+  inference}{61}{1}{49--59}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scott%
+}{%
+Scott%
+}{%
+{\protect \APACyear {1979}}%
+}]{%
+scott1979optimal}
+\APACinsertmetastar {%
+scott1979optimal}%
+\begin{APACrefauthors}%
+Scott, D\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1979}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On optimal and data-based histograms} {On optimal and
+  data-based histograms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biometrika}{66}{3}{605--610}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scott%
+}{%
+Scott%
+}{%
+{\protect \APACyear {1985}}%
+}]{%
+scott1985}
+\APACinsertmetastar {%
+scott1985}%
+\begin{APACrefauthors}%
+Scott, D\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1985}{09}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Averaged Shifted Histograms: Effective Nonparametric
+  Density Estimators in Several Dimensions} {Averaged shifted histograms:
+  Effective nonparametric density estimators in several dimensions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ann. Statist.}{13}{3}{1024--1040}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1214/aos/1176349654}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1214/aos/1176349654} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scott%
+}{%
+Scott%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+scott2009sturges}
+\APACinsertmetastar {%
+scott2009sturges}%
+\begin{APACrefauthors}%
+Scott, D\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sturges' rule} {Sturges' rule}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Wiley Interdisciplinary Reviews: Computational
+  Statistics}{1}{3}{303--306}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sturges%
+}{%
+Sturges%
+}{%
+{\protect \APACyear {1926}}%
+}]{%
+sturges1926choice}
+\APACinsertmetastar {%
+sturges1926choice}%
+\begin{APACrefauthors}%
+Sturges, H\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1926}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The choice of a class interval} {The choice of a class
+  interval}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the american statistical
+  association}{21}{153}{65--66}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wand%
+}{%
+Wand%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+wand1997data}
+\APACinsertmetastar {%
+wand1997data}%
+\begin{APACrefauthors}%
+Wand, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data-based choice of histogram bin width} {Data-based
+  choice of histogram bin width}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The American Statistician}{51}{1}{59--64}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Waterman%
+\ \BBA {} Whiteman%
+}{%
+Waterman%
+\ \BBA {} Whiteman%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+waterman1978estimation}
+\APACinsertmetastar {%
+waterman1978estimation}%
+\begin{APACrefauthors}%
+Waterman, M.%
+\BCBT {}\ \BBA {} Whiteman, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Estimation of probability densities by empirical density
+  functions} {Estimation of probability densities by empirical density
+  functions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Mathematical Education in
+  Science and Technology}{9}{2}{127--137}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

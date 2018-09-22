@@ -1,0 +1,16 @@
+This is TeX, Version 3.141592 (MiKTeX 2.3) (preloaded format=latex 2000.11.28)  28 AUG 2008 13:06
+**approvalsheetENG.tex
+(approvalsheetENG.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+
+! LaTeX Error: Environment singlespace undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{singlespace}
+                       
+? 

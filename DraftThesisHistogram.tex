@@ -1,0 +1,346 @@
+% Create by Assoc. Prof. Dr. Mohd Bakri bin Adam on 1 July 2016 to suit the B5 format for final submission for final binding with the help of Aisha the master student from Engineering Faculty%
+% I recommended all users of this template to use TeXworks as the editor to get the best result with minimal adjustment %
+% All users that need help please do not hesitate to email bakri@upm.edu.my%
+% Additional materials are: inside the formats
+% ---------------------------------------------------------------------------------------% 
+% End result or printing will be depend on the printer that you're using This is depend on your printer 8 August 2016
+\documentclass[b5paper,twoside,tocchapterhead,10pt]{UPMthesisEnglish}
+%\documentclass[b5paper,twoside,openright,tocchapterhead,10pt]{UPMthesisEnglish}
+\usepackage{wordlike}
+\usepackage{hanging}
+\usepackage{paralist}
+\usepackage{afterpage}
+\usepackage{natbib}
+\usepackage[figuresright]{rotating}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{color}
+\usepackage{mdwlist}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\usepackage[english]{babel}
+\usepackage{mathrsfs}
+\usepackage{bbding}
+\usepackage{lipsum}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{bm}
+\usepackage{bbold}
+\usepackage{natbib}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage[figuresright]{rotating}
+\usepackage{adjustbox}
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning,shapes.geometric}
+\usepackage[font=bf]{caption}
+\usepackage{paralist}
+\usepackage{afterpage}
+\usepackage{fancybox}
+\usepackage{array}
+\usepackage{algorithmicx}
+\usepackage[caption=false]{subfig} %untuk caption multiple gambar dalam satu Figure)
+\usepackage[chapter]{algorithm}
+\usepackage{amsfonts}
+\usepackage{algpseudocode}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{textcomp} 
+\usepackage{pdflscape}
+\usepackage{booktabs} %untuk cantikkan top & bottom horizontal line dalam table
+\usepackage{multirow} %untuk split cell dalam table
+\usepackage{url} % untuk support URL dalam \bibliographystyle{aisha} )
+\usepackage{tipa} % aisha tambah 1/11/2011 (untuk special character dalam nama author dalam bibliografi)
+\usepackage{array} % aisha tambah 20/11/2011 (untuk control table width dalam Appendix E)
+%\usepackage[utf8]{inputenc}
+
+\usepackage{makeidx}  % To create indices for the thesis
+\graphicspath{ {images/} }
+\usepackage{float}
+
+
+\makeindex 
+
+
+
+%\citestyle{ap6} % aisha ubah
+%\usepackage[left=25mm,right=33mm,top=1in,bottom=1in]{geometry} %userpackage yg nih untuk set printout abstrak sehingga list of abbrev + next palin page - set 1
+%\newcommand{\l}[1]{_{\!\mathsmaller{#1}}}
+%\usepackage[left=33mm,right=25mm,top=1in,bottom=1in]{geometry} %userpackage yg nih untuk set printout pagetitle dan chapters - set 2
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0.25pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0.0cm}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+
+\titleformat{\section}
+  {\normalfont\fontsize{10}{15}\rmfamily\bfseries}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{10}{15} \rmfamily\bfseries}
+  {\thesubsection}
+  {1em}
+  {}
+  
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{10}{15}\rmfamily\bfseries}
+  {\thesubsubsection}
+  {1em}
+  {}
+
+
+\makeatletter
+\renewcommand{\l@section}{\@dottedtocline{1}{1.5em}{2.6em}}
+\renewcommand{\l@subsection}{\@dottedtocline{2}{4.0em}{3.6em}}
+\renewcommand{\l@subsubsection}{\@dottedtocline{3}{7.4em}{4.5em}}
+\makeatother
+
+
+
+
+\addto\captionsenglish{%
+ % \renewcommand{\figurename}{Fig.}%
+  \renewcommand{\contentsname}{\bf Table of Contents}%
+}
+ 
+\setlength{\parskip}{10pt} % To make a blank line between two paragraphs
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{defin}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{prob}[thm]{Problem}
+
+\newtheorem{Theorem}{\quad Theorem}[section]
+
+\newtheorem{Definition}[Theorem]{\quad Definition}
+
+\newtheorem{Corollary}[Theorem]{\quad Corollary}
+
+\newtheorem{Lemma}[Theorem]{\quad Lemma}
+
+\newtheorem{Example}[Theorem]{\quad Example}
+
+
+
+
+
+%\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+%\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}} % Add on 3 May 2016 to remove first empty pages
+\def \addblankpage{
+\afterpage{
+	\thispagestyle{empty}
+	\newpage
+	\mbox{}
+	\newpage
+	}
+}
+
+\begin{document}
+
+\def \authorname{Demudu Naganaidu} %NAME OF STUDENT IN CAPITAL LETTERS
+\def \authormatric{GS49320}
+\def \thesistitle{Exploring Data with Histogram}% ENGLISH TITLE OF THESIS IN CAPITAL LETTERS
+\def \thesistitleM{Eksplorasi Data dengan Histogram}% Malay TITLE OF THESIS IN CAPITAL LETTERS 3 May 2016
+%\def \degree{Doctor of Philosophy} 
+\def \degree{Doctor of Philosophy} % or Master of Science
+\def \chair{Associate Professor Dr.  Mohd Bakri Bin Adam, Ph.D.}
+\def \chairM{Professor Madya Dr.  Mohd Bakri Bin Adam, Ph.D.} % Malay
+\def \memberA{Associate  Professor Dr. Jayanthi a/p Arasan, Ph.D.}
+\def \memberB{Dr. Iskandar Bin Ishak, Ph.D.}
+%\def \memberC{name of Member of Supervisory 3}
+\def \chairViva{Professor Dr. E, Ph.D.}
+\def \examinerA{Professor Dr. F, Ph.D.}
+\def \examinerB{Associate Professor Dr. G, Ph.D.}
+\def \examinerC{Dr. H, Ph.D.}
+\def \thesisDate{August 2020}
+\def \thesisDateM{Ogos 2020}
+{
+%\newgeometry{left=33mm,right=25mm,top=25mm,bottom=25mm}
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 Bakri This is depend on your printer 8 August 2016
+\include{Title}}
+
+{
+%\newgeometry{left=33mm,right=25mm,top=25mm,bottom=25mm}
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 Bakri This is depend on your printer 8 August 2016
+\include{Copyright}}
+
+
+%----------------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------------%
+{
+%\newgeometry{left=33mm,right=25mm,top=25mm,bottom=25mm}
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 2 May 2016 This is depend on your printer 8 August 2016
+%{\newgeometry{left=25mm,right=33mm,top=1in,bottom=1in}
+
+{\singlespace \include{Dedication}}
+
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+
+
+\pagenumbering{roman}
+{
+%\newgeometry{left=25mm,right=33mm,top=25mm,bottom=25mm}
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 This is depend on your printer 8 August 2016
+% \newgeometry{left=33mm,right=25mm,top=1in,bottom=1in}
+\addcontentsline{toc}{chapter}{\textbf{ABSTRACT}}
+ \include{Abstract}}
+
+\addblankpage % disable this command if your abstract ONLY one page
+
+
+
+{
+%\newgeometry{left=33mm,right=25mm,top=1in,bottom=1in}
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 This is depend on your printer 8 August 2016
+\addcontentsline{toc}{chapter}{\it \textbf{ABSTRAK}}
+ \include{Abstrak}}
+
+\addblankpage % disable this command if your abstract ONLY one page
+
+
+
+%----------------------------------------------------------------------------------------%
+{
+%\newgeometry{left=33mm,right=25mm,top=1in,bottom=1in} 
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 Bakri This is depend on your printer 8 August 2016
+\addcontentsline{toc}{chapter}{\textbf{ACKNOWLEDGMENTS}}
+\include{Acknow}}
+
+
+
+%----------------------------------------------------------------------------------------%
+{
+%\newgeometry{left=33mm,right=25mm,top=1in,bottom=1in} 
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 Bakri This is depend on your printer 8 August 2016
+\addcontentsline{toc}{chapter}{\textbf{APPROVAL}}
+\include{Approval}}
+
+
+%----------------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------------%
+
+{
+%\newgeometry{left=33mm,right=25mm,top=1in,bottom=1in} 
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 Bakri This is depend on your printer 8 August 2016
+\include{Declaration}}
+
+
+%\newpage
+
+%----------------------------------------------------------------------------------------%
+%--- The following command is to remove the dots from the list of the tables, figures ---%
+%--- and the table of contents                                                        ---%
+\makeatletter \renewcommand{\@dotsep}{10000} \makeatother
+%----------------------------------------------------------------------------------------%
+
+\addblankpage % disable this command if your TABLE OF CONTENTS STARTED ON YOUR RIGHT HAND SIDE PAGE or ODD PAGE NUMBER 
+
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 This is depend on your printer 8 August 2016
+
+\tableofcontents
+
+\addblankpage % disable this command if your LIST OF TABLES STARTED AT EVEN PAGE NO.
+
+\listoftables
+
+\addblankpage % disable this command if your LIST OF FIGURES  STARTED AT EVEN PAGE NO.
+
+\listoffigures
+
+\addblankpage % disable this command if your LIST OF ABBREAVIATONS STARTED EVEN PAGE NO
+
+\addcontentsline{toc}{chapter}{\textbf{LIST OF ABBREVIATIONS}}
+\include{abbrev}
+
+\addblankpage
+
+%\addblankpage % disable this command if your abstract ONLY one page
+
+
+
+%----------------------------------------------------------------------------------------%
+\mainmatter
+%\doublespace
+\singlespace
+\newgeometry{left=27mm,right=18mm,top=19mm,bottom=15mm} % Change 3 May 2016 This is depend on your printer 8 August 2016
+%----------------------------------------------------------------------------------------%
+% The Command:                                                                           %
+% \addtocontents{toc}{\addvspace{.5cm}}                                                  %
+% must be added before each \include {chapter}                                           %
+%----------------------------------------------------------------------------------------%
+
+\addtocontents{toc}{\addvspace{.5cm}}
+\include{Introduction}
+
+%\addblankpage put this command at the last page of introduction.tex if your THE NEXT CHAPTER STARTED AT EVEN PAGE NUMBER 
+
+
+
+
+%----------------------------Additional chapters may be added ---------------------------%
+%                                                                                        %
+%----------------------------------------------------------------------------------------%
+% Bibliography on Chicago Thesis Style with modifications by Rand Alfaris.               %
+% Don't make any changes on the following, except for the name of the bibliography file. %
+% For example, we choose here a file named "bibli".                                      %
+%----------------------------------------------------------------------------------------%
+\addcontentsline{toc}{chapter}{\textbf{BIBLIOGRAPHY}}
+\renewcommand\bibname{BIBLIOGRAPHY}
+\begin{singlespace}
+\bibliography{bibbliografi} % This is your bibtex file need to click BibTeX a few times alternate with pdfLaTeX
+\bibliographystyle{apa6}
+%\bibliographystyle{apj}
+\end{singlespace}
+
+%\begin{singlespace}
+%\bibliography{bibli2013,bibli2013A,bibli2013B}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{abbrvnat}
+%\bibliographystyle{unsrtnat}
+%\bibliographystyle{authordate1}
+%\bibliographystyle{apalike}
+%%\bibliographystyle{biometrika}
+%\end{singlespace}
+%----------------------------------------------------------------------------------------%
+
+\include{verbatim}
+
+\addcontentsline{toc}{chapter}{\textbf{BIODATA OF STUDENT}}
+\include{biodata}   % Biodata of student                                                 %
+\addcontentsline{toc}{chapter}{\textbf{LIST OF PUBLICATIONS}}
+\include{listofpublications} % List of publications                                      %
+%\addcontentsline{toc}{chapter}{\textbf{STATUS CONFIRMATION FOR THESIS/PROJECT REPORT AND COPYRIGHT}}
+
+%\backmatter 
+\addcontentsline{toc}{chapter}{\textbf{INDEX}}
+\printindex  % Need to click MakeIndex a few time same like BibTeX
+
+\include{Status} % Status confirmation for the thesis
+
+
+
+\end{document}
+%----------------------------------------------------------------------------------------%

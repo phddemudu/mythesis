@@ -1,0 +1,24 @@
+\begin{titlepage}
+\begin{center}
+
+\includegraphics[angle=0,width=5in]{logo_UPM.eps}
+
+\vspace{5mm}%
+
+{\large \bf {\textsc{TITLE OF THESIS} }}
+
+\vspace{50mm}%
+
+\bf {\textbf{By}}\\
+\vspace{10mm}%
+{\large \bf{\textbf{NAME OF STUDENT}}} \vspace{75mm}
+
+\begin{singlespace}
+{\bf Thesis Submitted to the School of Graduate Studies,
+Universiti Putra Malaysia, in Fulfilment of the Requirements for
+the Degree of (insert the name of the degree)}
+\end{singlespace}
+
+{\bf Month and year of Viva Voce}
+\end{center}
+\end{titlepage}

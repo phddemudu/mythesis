@@ -1,0 +1,36 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: DraftThesisHistogram.aux
+A level-1 auxiliary file: Title.aux
+A level-1 auxiliary file: Copyright.aux
+A level-1 auxiliary file: Dedication.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Abstrak.aux
+A level-1 auxiliary file: Acknow.aux
+A level-1 auxiliary file: Approval.aux
+A level-1 auxiliary file: Declaration.aux
+A level-1 auxiliary file: abbrev.aux
+A level-1 auxiliary file: Introduction.aux
+The style file: apa6.bst
+A level-1 auxiliary file: verbatim.aux
+A level-1 auxiliary file: biodata.aux
+A level-1 auxiliary file: listofpublications.aux
+A level-1 auxiliary file: Status.aux
+Database file #1: bibbliografi.bib
+Repeated entry---line 196 of file bibbliografi.bib
+ : @article{li2016essential
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 316 of file bibbliografi.bib
+ : @article{scott1979optimal
+ :                          ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 335 of file bibbliografi.bib
+ :  publisher = {} 
+ :                 Springer
+I'm skipping whatever remains of this entry
+Repeated entry---line 375 of file bibbliografi.bib
+ : @article{wand1997data
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in francis2005dancing
+Warning--empty journal in ross2010introductory
+(There were 4 error messages)

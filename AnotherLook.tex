@@ -1,0 +1,187 @@
+\chapter{\textbf{SPECIAL TOPIC ONE }}\label{anotherlook}
+%\thispagestyle{empty}
+
+\section{Introduction}
+\lipsum[1-2]
+
+\subsection{Referencing in \, \LaTeX}
+
+We give to citing using some commands with will give automatic referencing. Try to avoid referencing to website, report or proceeding (some) which is not have any peer review.
+
+Refer to \cite{Hoffstein2008a}  or \cite{Hoffstein2008b} or \cite{Goldwasser1988} or \cite{May2003}. What you need to do is to make sure that you have all the refs in .bib files as below
+
+\begin{verbatim}
+@Book{Hoffstein2008a,
+Title={{An Introduction to Mathematical Cryptography One}},
+Author={Hoffstein, Jeffrey And Pipher, Jill And Silverman, Joseph H},
+Year={2008},
+Publisher={Springer}
+}
+
+@Book{Hoffstein2008b,
+Title={{An Introduction to Mathematical Cryptography Two}},
+Author={Hoffstein, Jeffrey And Pipher, Jill And Silverman, Joseph H},
+Year={2008},
+Publisher={Springer}
+}
+
+@Article{Goldwasser1988,
+Title={{A Digital ....  Attacks}},
+Author={Goldwasser, Shafi And Micali, Silvio And Rivest, Ronald L},
+Journal={SIAM Journal On Computing},
+Volume={17},
+Number={2},
+Pages={281--308},
+Year={1988},
+Publisher={SIAM}
+}
+
+@Phdthesis{May2003,
+Title={{New {RSA} Vulnerabilities Using Lattice Reduction Methods}},
+Author={May, Alexander},
+Year={2003},
+School={University of Paderborn}
+}
+
+% Try to avoid website refs, proceedings and 
+% technical reports if necessary
+
+@Inproceedings{Dolev1998,
+Title={{Non-Malleable Cryptography}},
+Author={Dolev, Danny And Dwork, Cynthia And Naor, Moni},
+Booktitle={SIAM Journal On Computing},
+Year={1998},
+Organization={}
+}
+
+@Incollection{Watanabe2002,
+Title={{Equivalence ... Attacks}},
+Author={Watanabe, Yodai And Shikata, Junji And Imai, Hideki},
+Booktitle={Public Key Cryptography - PKC 2003},
+Pages={71--84},
+Year={2002},
+Publisher={Springer}
+}
+
+@Techreport{Kaliski1998,
+Title={{PKCs} \# 1: {RSA} Cryptography Specifications Version 2.0},
+Author={Kaliski, Burt And Staddon, Jessica},
+Year={1998},
+Institution={Rfc 2437, October}
+}
+\end{verbatim}
+
+The best way to do the key label the ref is authorname + year of publication. As above we will use Hoffstein2008. If there are more authors you need to separate by the word AND. If similar year. Only label change.
+
+\section{This section we will learn how to creat best table in \, \LaTeX }
+
+Most important guidelines for making tables are
+
+\begin{enumerate}
+\item Avoid vertical lines
+\item Avoid "boxing up" cells, usually 3 horizontal lines are enough: above below, and after heading
+\item Avoid double horizontal lines
+\item Enough space between rows
+\item If in doubt, align left
+\item Style: \verb|\usepackage{booktabs}|
+\item Horizontal lines: read documentation of booktabs \verb| http://texcatalogue.sarovar.org/entries/booktabs.html|
+\item More space between rows: \verb|\renewcommand{\arraystretch}{1.2} (or 1.3)|
+\item Remove space to the vertical edges: \verb|\begin{tabular}{@{}lll@{}} ...|
+\end{enumerate}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llr}
+\toprule First name & Last Name & Grade \\ 
+\midrule John & Doe & $7.5$ \\ Richard & Miles & $2$ \\ 
+\bottomrule 
+\end{tabular} 
+\end{table}
+
+\begin{verbatim}
+\begin{table}
+\centering
+\begin{tabular}{llr}
+\toprule First name & Last Name & Grade \\ 
+\midrule John & Doe & $7.5$ \\ Richard & Miles & $2$ \\ 
+\bottomrule 
+\end{tabular} 
+\end{table}
+\end{verbatim}
+
+
+\begin{tabular}{llr}
+\toprule \multicolumn{2}{c}{Name} \\ 
+\cmidrule(r){1-2} First name & Last Name & Grade \\ 
+\midrule John & Doe & $7.5$ \\ Richard & Miles & $2$ \\ 
+\bottomrule 
+\end{tabular} 
+
+\begin{verbatim}
+\begin{tabular}{llr}
+\toprule \multicolumn{2}{c}{Name} \\ 
+\cmidrule(r){1-2} First name & Last Name & Grade \\ 
+\midrule John & Doe & $7.5$ \\ Richard & Miles & $2$ \\ 
+\bottomrule 
+\end{tabular} 
+\end{verbatim}
+
+\lipsum[1-3]
+
+%\begin{adjustbox}{minibox=\textwidth,angle=180}
+\begin{landscape}
+As the example are longer we are using landscape for this verbatim part
+\begin{verbatim} 
+%\usepackage{booktabs}
+ \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\begin{sidewaystable*}\centering
+\ra{1.3}
+\begin{tabular}{@{}rrrrcrrrcrrr@{}}\toprule
+& \multicolumn{3}{c}{$w = 8$} & \phantom{abc}& \multicolumn{3}{c}{$w = 16$} &
+\phantom{abc} & \multicolumn{3}{c}{$w = 32$}\\ \cmidrule{2-4} \cmidrule{6-8} \cmidrule{10-12}
+& $t=0$ & $t=1$ & $t=2$ && $t=0$ & $t=1$ & $t=2$ && $t=0$ & $t=1$ & $t=2$\\ 
+\midrule
+$dir=1$\\
+$c$ & 0.0790 & 0.1692 & 0.2945 && 0.3670 & 0.7187 & 3.1815 && -1.0032 & -1.7104 & -21.7969\\
+$c$ & -0.8651& 50.0476& 5.9384&& -9.0714& 297.0923& 46.2143&& 4.3590& 34.5809& 76.9167\\
+$c$ &124.2756&-50.9612& -14.2721&&128.2265&-630.5455&-381.0930&& 121.0518&-137.1210&-220.2500\\
+$dir=0$\\
+$c$ & 0.0357& 1.2473& 0.2119&& 0.3593& -0.2755& 2.1764&& -1.2998& -3.8202& -1.2784\\
+$c$ & -17.9048& -37.1111& 8.8591&& -30.7381& -9.5952& -3.0000&& -11.1631& -5.7108& -15.6728\\
+$c$ & 105.5518& 232.1160& -94.7351&& 100.2497& 141.2778& -259.7326&& 52.5745& 10.1098& -140.2130\\ 
+\bottomrule
+\end{tabular}
+\caption{Caption}
+\end{sidewaystable*}
+\end{verbatim}
+
+
+\newpage 
+\end{landscape}
+%\end{adjustbox}
+
+%\usepackage{booktabs}
+ \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\begin{sidewaystable*}\centering
+\ra{1.3}
+\begin{tabular}{@{}rrrrcrrrcrrr@{}}\toprule
+& \multicolumn{3}{c}{$w = 8$} & \phantom{abc}& \multicolumn{3}{c}{$w = 16$} &
+\phantom{abc} & \multicolumn{3}{c}{$w = 32$}\\ \cmidrule{2-4} \cmidrule{6-8} \cmidrule{10-12}
+& $t=0$ & $t=1$ & $t=2$ && $t=0$ & $t=1$ & $t=2$ && $t=0$ & $t=1$ & $t=2$\\ \midrule
+$dir=1$\\
+$c$ & 0.0790 & 0.1692 & 0.2945 && 0.3670 & 0.7187 & 3.1815 && -1.0032 & -1.7104 & -21.7969\\
+$c$ & -0.8651& 50.0476& 5.9384&& -9.0714& 297.0923& 46.2143&& 4.3590& 34.5809& 76.9167\\
+$c$ & 124.2756& -50.9612& -14.2721&& 128.2265& -630.5455& -381.0930&& -121.0518& -137.1210& -220.2500\\ $dir=0$\\
+$c$ & 0.0357& 1.2473& 0.2119&& 0.3593& -0.2755& 2.1764&& -1.2998& -3.8202& -1.2784\\
+$c$ & -17.9048& -37.1111& 8.8591&& -30.7381& -9.5952& -3.0000&& -11.1631& -5.7108& -15.6728\\
+$c$ & 105.5518& 232.1160& -94.7351&& 100.2497& 141.2778& -259.7326&& 52.5745& 10.1098& -140.2130\\ \bottomrule
+\end{tabular}
+\caption{Caption}
+\end{sidewaystable*}
+
+
+Some more stuff about eigenvectors\index{eigenvector} and 
+eigenvalues\index{eigenvalue}. Something about 
+eigen-decomposition\index{eigen-decomposition}. 
+
+

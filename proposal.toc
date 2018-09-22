@@ -1,0 +1,16 @@
+\select@language {french}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Histogram}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Number of Bins}{5}{0}{1}
+\beamer@sectionintoc {2}{Literature Review}{6}{0}{2}
+\beamer@sectionintoc {3}{Problem Statement}{21}{0}{3}
+\beamer@subsectionintoc {3}{1}{Unequal Bin Width Histogram}{21}{0}{3}
+\beamer@sectionintoc {4}{Method}{23}{0}{4}
+\beamer@subsectionintoc {4}{1}{The Modified Histogram}{23}{0}{4}
+\beamer@sectionintoc {5}{Results}{24}{0}{5}
+\beamer@subsectionintoc {5}{1}{Commmon Histograms}{25}{0}{5}
+\beamer@subsectionintoc {5}{2}{Decile Histogram}{26}{0}{5}
+\beamer@subsectionintoc {5}{3}{Quartile Histogram}{27}{0}{5}
+\beamer@sectionintoc {6}{Conclussion}{29}{0}{6}
+\beamer@subsectionintoc {6}{1}{Bibliography}{31}{0}{6}
+\contentsline {section}{R\'ef\'erences}
